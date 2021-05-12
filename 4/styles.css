@@ -1,0 +1,22 @@
+.cart {
+    background: url(img/basket.png);
+    margin: 300px auto;
+    height: 157px;
+    width: 150px;
+    
+}
+
+.carrot{
+    background: url(img/carrot.jpg);
+    margin: 200px auto;
+    height: 250px;
+    width: 300px;
+}
+
+.avocado{
+    background: url(img/avocado.png);
+    margin-top: 100px;
+    margin-left: 240px;
+    height: 250px;
+    width: 300px;
+}
