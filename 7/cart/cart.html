@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cart_in{
+            width: 800px;
+            background: #EEE;
+            position: absolute;
+            top: 50px;
+            left: calc( 50% - 400px );
+            border: 2px solid #ccc;
+            border-radius: 6px;
+            padding: 30px;
+            box-shadow: 5px 5px 10px #555;
+            display: none;
+        }
+        #address{
+            width: 800px;
+            background: #EEE;
+            position: absolute;
+            top: 50px;
+            left: calc( 50% - 400px );
+            border: 2px solid #ccc;
+            border-radius: 6px;
+            padding: 30px;
+            box-shadow: 5px 5px 10px #555;
+            display: none;
+        }
+        #comment{
+            width: 800px;
+            background: #EEE;
+            position: absolute;
+            top: 50px;
+            left: calc( 50% - 400px );
+            border: 2px solid #ccc;
+            border-radius: 6px;
+            padding: 30px;
+            box-shadow: 5px 5px 10px #555;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <img src="img/avocado.png" alt="">
+            <p>avocado</p>
+            <button class="button plus" data-id="avocado">+</button>
+            <button class="button minus" data-id="avocado">-</button>
+        </div>
+        <div>
+            <img src="img/carrot.jpg" alt="">
+            <p>carrot</p>
+            <button class="button plus" data-id="carrot">+</button>
+            <button class="button minus" data-id="carrot">-</button>
+        </div>
+        <div>
+            <img src="img/basket.png" alt="" class="basket">
+        </div>
+    </section>
+    <div id="cart_in">
+        <p id="cart_items"></p>
+        <p id="cart_text">Cart is empty</p>
+        <button class="nextbutton1">next</button>
+        <button class="closecart_in">close</button>
+    </div>
+    <div id="address">
+        <p id="addresspanel"></p>
+        <button class="nextbutton2">next</button>
+        <button class="closeaddress">close</button>
+    </div>
+    <div id="comment">
+        <p id="commentpanel"></p>
+        <button class="closecomment">close</button>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
